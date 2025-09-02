@@ -18,3 +18,11 @@ if __name__ == "__main__":
     print("Subtract: 5 - 2 =", subtract(5, 2))
     print("Multiply: 4 * 3 =", multiply(4, 3))
     print("Divide: 10 / 2 =", divide(10, 2))
+    
+    try:
+        print("Divide: 10 / 0 =", divide(10, 0))
+    except ValueError as e:
+        print("Error:", e)
+# Simple calculator functions: add, subtract, multiply, divide
+# with error handling for division by zero.
+
